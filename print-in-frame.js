@@ -1,7 +1,7 @@
 function printInFrame(list) {
   var list = list.split(' ');
   var longest = longestStr(list).length;
-  var border = repeat('*', longest+4);
+  var border = repeat('*', longest+4);//added remaining stars
 
   console.log(border);
   for (word of list) {
@@ -34,4 +34,4 @@ function longestStr(list) {
 printInFrame('May the force be with you');
 printInFrame('Here\'s Johnny!');
 printInFrame('Supercalifragalisticexpialadocious');
-printInFrame('Lost, like tears in rain');//corrected blade runner quote
+printInFrame('All those moments will be lost in time, like tears in rain.');//corrected blade runner quote
